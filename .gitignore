@@ -15,7 +15,7 @@ downloads/
 eggs/
 .eggs/
 lib/
-lib64/
+lib64
 parts/
 sdist/
 var/
@@ -109,6 +109,9 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+pyvenv.cfg
+share/
+bin/
 
 # Spyder project settings
 .spyderproject
@@ -132,3 +135,8 @@ dmypy.json
 *transactions*.jsonl
 /examples/data/transactions*
 *.DS_Store
+tmp_*
+examples/fine-tuned_qa/local_cache/*
+
+# PyCharm files
+.idea/
